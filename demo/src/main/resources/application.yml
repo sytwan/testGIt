@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;DatabaseName=demo
+    username: sa
+    password: zhao
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
